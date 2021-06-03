@@ -59,7 +59,7 @@
         populations = [100, 200]
         result = list(zip(cities,populations)) 
         print(result) # [('A city', 100), ('B city', 200)]
-
+        
         result2 = dict(zip(cities,populations))
         print(result2) # {'A city': 100, 'B city': 200}
         ```
@@ -127,7 +127,7 @@ x = [i for i in list1 if i in list2]
 print(x) # [3, 4, 5]
 ```
 
-1. 如何打亂一副鋪克牌 與 隨機選出n張牌
+9. 如何打亂一副鋪克牌 與 隨機選出n張牌
 
     ```python
     import random
@@ -149,7 +149,7 @@ print(x) # [3, 4, 5]
     print(result)
     ```
 
-2.  將一串 [4, 2, 5, 3, 1] 做 小到大 與 大到小排序
+10.  將一串 [4, 2, 5, 3, 1] 做 小到大 與 大到小排序
 
     ```python
     x = [4, 2, 5, 3, 1]
@@ -161,7 +161,7 @@ print(x) # [3, 4, 5]
     print(x) # [5, 4, 3, 2, 1]
     ```
 
-3.  lambda 是什麼
+11.  lambda 是什麼
 
     是python 中的匿名函式，寫法為 lambda: 輸入參數: 函式內容
 
@@ -172,7 +172,7 @@ print(x) # [3, 4, 5]
     print(square(10)) # 100
     ```
 
-4. 將  {'a':24,'g':52,'i':12,'k':33} 依照key 排序 與 依照value排
+12. 將  {'a':24,'g':52,'i':12,'k':33} 依照key 排序 與 依照value排
 
     用dic.items() 會將dict的結果轉為包著tuple的list
 
@@ -196,7 +196,7 @@ print(x) # [3, 4, 5]
     #['a', 'g', 'i', 'k']
     ```
 
-5. 请按list中元素的age 由大到小排序
+13. 请按list中元素的age 由大到小排序
 
     ```python
     alist = [{'name':'a','age':20},{'name':'b','age':30},{'name':'c','age':25}]
@@ -206,7 +206,7 @@ print(x) # [3, 4, 5]
     # [{'name': 'b', 'age': 30}, {'name': 'c', 'age': 25}, {'name': 'a', 'age': 20}]
     ```
 
-6. 使用sorted 將 [-8, 5, 9, -2, -11, 12, 1, 10, -5] 正值的有小到大排序 負值的由大到小排序
+14. 使用sorted 將 [-8, 5, 9, -2, -11, 12, 1, 10, -5] 正值的有小到大排序 負值的由大到小排序
 
     ```python
     lst = [-8, 5, 9, -2, -11, 12, 1, 10, -5]
@@ -247,7 +247,7 @@ print(x) # [3, 4, 5]
 
     如果符號相同，那麼tuple裡的第一個元素就是相等的，那麼就比較第二個元素，也就是絕對值小的在前面了。
 
-7. 有個姓名與年齡組成的list 
+15. 有個姓名與年齡組成的list 
 
     ```python
     member = [['Peter', 25],
@@ -272,7 +272,7 @@ print(x) # [3, 4, 5]
     #[['Kevin', 29], ['Peter', 25], ['Mary', 22], ['Jessica', 22], ['Nancy', 22], ['Tom', 18]]
     ```
 
-8. 有一字典內容為
+16. 有一字典內容為
 
     ```python
     member = {'Peter':25,
@@ -297,7 +297,7 @@ print(x) # [3, 4, 5]
     print(dict)  # {'Kevin': 29, 'Peter': 25, 'Tom': 18}
     ```
 
-9.  有一串列為['a', 'b', 'c'] 請將元素設為字典的key 隨機建立1~10的value 
+17.  有一串列為['a', 'b', 'c'] 請將元素設為字典的key 隨機建立1~10的value 
 
     ```python
     import random
@@ -307,7 +307,7 @@ print(x) # [3, 4, 5]
     # {'a': 2, 'b': 9, 'c': 3}
     ```
 
-10. 說明內建函數 map ( ) 怎麼使用，並用程式說明
+18. 說明內建函數 map ( ) 怎麼使用，並用程式說明
 
     map ( function, iterable )
     將可迭代的物件依序放入function中，將function的結果回傳，常用lambda表達式
@@ -322,7 +322,7 @@ print(x) # [3, 4, 5]
     # 做法2 [i**2 for i in numbers ] 
     ```
 
-11.  請說明*args 與 **kwargs 的差別
+19.  請說明*args 與 **kwargs 的差別
 
     *args : 是指函數可以有任意數量的參數，本質是tuple
 
@@ -339,7 +339,7 @@ print(x) # [3, 4, 5]
     fun(1, 2, 3, 4, 5, A='I', B='like', C='Python')
     ```
 
-12. 利用Nested function 計算兩座標點的距離
+20. 利用Nested function 計算兩座標點的距離
 
     ```python
     def dist(x1,y1,x2,y2):          # 計算2點之距離函數
@@ -352,7 +352,7 @@ print(x) # [3, 4, 5]
     print(dist(0,0,1,1)) # 1.4142135623730951
     ```
 
-13. 在不用sort()的方法下設計一函數將list排序
+21. 在不用sort()的方法下設計一函數將list排序
 
     ```python
     def rtn_min(lst):
@@ -369,7 +369,7 @@ print(x) # [3, 4, 5]
     # [1, 2, 3, 7, 9]
     ```
 
-14. 請解釋甚麼是閉包 closure
+22. 請解釋甚麼是閉包 closure
 
     有個內部函數可以拿到外面的值，而此函數中存在自己才能取用的變數，外界無法得知。
 
@@ -387,7 +387,7 @@ print(x) # [3, 4, 5]
     # 20
     ```
 
-15. 費式數列輸入n 回傳index = n 的值
+23. 費式數列輸入n 回傳index = n 的值
 
     ```python
     def fabo(n):
@@ -399,13 +399,13 @@ print(x) # [3, 4, 5]
     print(fabo(4)) #５
     ```
 
-16. 計算1~10的加總
+24. 計算1~10的加總
 
     ```python
     sum(range(1,11))
     ```
 
-17. 輸入一個數字 ex 112 將尾數都轉為0
+25. 輸入一個數字 ex 112 將尾數都轉為0
 
     ```python
     input = 112
@@ -413,7 +413,7 @@ print(x) # [3, 4, 5]
     print(tmp_num) # 110
     ```
 
-18. 計算 等差數列 的合，ex 起始為1 終點值為10 間隔為3
+26. 計算 等差數列 的合，ex 起始為1 終點值為10 間隔為3
 
     公式 (首項+末項) * 項數 / 2
 
@@ -427,7 +427,7 @@ print(x) # [3, 4, 5]
     print(ans) # 22
     ```
 
-19. 將一字串 排除重複且重新排列大小
+27. 將一字串 排除重複且重新排列大小
 
     ```python
     strings = 'ajkadcbkkkzzzxiuuuii'
@@ -438,7 +438,7 @@ print(x) # [3, 4, 5]
     print(ans)  #會是list ['a', 'b', 'c', 'd', 'i', 'j', 'k', 'u', 'x', 'z']
     ```
 
-20. 畫出等腰三角形
+28. 畫出等腰三角形
 
     ```python
     def fig(h):
@@ -453,7 +453,7 @@ print(x) # [3, 4, 5]
     *****
     ```
 
-21. 畫出正直角三角形 與 倒直角三角形
+29. 畫出正直角三角形 與 倒直角三角形
 
     ```python
     n = 3
@@ -476,7 +476,7 @@ print(x) # [3, 4, 5]
     *
     ```
 
-22. 字串 '''FBI Mark told CIA Linda that the secret USB had given to FBI Peter''' 
+30. 字串 '''FBI Mark told CIA Linda that the secret USB had given to FBI Peter''' 
 
     計算 FBI出現幾次，用xxx換置FBI
 
@@ -488,7 +488,7 @@ print(x) # [3, 4, 5]
     # xxx Mark told CIA Linda that the secret USB had given to xxx Peter
     ```
 
-23.  檢查文字是否為 http 開頭
+31.  檢查文字是否為 http 開頭
 
     str.startswith(str, beg=0,end=len(string));
 
@@ -500,7 +500,7 @@ print(x) # [3, 4, 5]
         print("網址格式錯誤")
     ```
 
-24. 檢查文字是否為 wow結尾
+32. 檢查文字是否為 wow結尾
 
     str.endswith(suffix[, start[, end]])
 
@@ -510,7 +510,7 @@ print(x) # [3, 4, 5]
     print(str.endswith(suffix)) # True
     ```
 
-25. 排列出 兩個數字list的所有組合
+33. 排列出 兩個數字list的所有組合
 
     ```python
     n1 = [1,2,3]
@@ -520,7 +520,7 @@ print(x) # [3, 4, 5]
     # [1, 1], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3]]
     ```
 
-26.  將顏色與形狀的list 排列組合
+34.  將顏色與形狀的list 排列組合
 
     ```python
      colors = ["Red", "Green", "Blue"]
@@ -530,7 +530,7 @@ print(x) # [3, 4, 5]
     #[['Red', 'Circle'], ['Red', 'Square'], ['Green', 'Circle'], ['Green', 'Square'], ['Blue', 'Circle'], ['Blue', 'Square']]
     ```
 
-27. 寫出一個計算最大公因數的function
+35. 寫出一個計算最大公因數的function
 
     ex a = 15, b = 6
 
@@ -545,7 +545,7 @@ print(x) # [3, 4, 5]
 
     用遞迴寫同樣的功能
 
-28. 計算最小公倍數 
+36. 計算最小公倍數
 
     ```python
     def gcp(a,b):
@@ -563,9 +563,9 @@ print(x) # [3, 4, 5]
             a = b
             b = tmp
         return a
-
+    
     def lcm(a,b):
         return a * b // gcd(a,b)
-
+    
     print(lcm(a,b)) # 30
     ```

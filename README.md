@@ -1,5 +1,9 @@
 # Leetcode
 
+## python 
+[基本語法題](Python_基本題.md)
+
+---
 ## Array
 Easy
 
@@ -7,10 +11,15 @@ Easy
 
 [26.Remove Duplicates from Sorted Array](./Array/26.Remove_Duplicates_from_Sorted_Array.md)
 
+[1512.Number of Good Pairs](./Array/1512.Number_of_Good_Pairs.md)
+
+
 ---
 
 ## String
 Easy
+
+[13. Roman to Integer](./String/13.Roman_to_Integer.md)
 
 [344.Reverse String](./String/344.Reverse_String.md)
 

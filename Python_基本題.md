@@ -120,12 +120,12 @@
 
 8. 有兩個list 如何找出有交集的
 
-```python
-list1 = [1, 2, 3, 4, 5]
-list2 = [3, 4, 5, 6, 7]
-x = [i for i in list1 if i in list2]
-print(x) # [3, 4, 5]
-```
+    ```python
+    list1 = [1, 2, 3, 4, 5]
+    list2 = [3, 4, 5, 6, 7]
+    x = [i for i in list1 if i in list2]
+    print(x) # [3, 4, 5]
+    ```
 
 9. 如何打亂一副鋪克牌 與 隨機選出n張牌
 
@@ -151,26 +151,27 @@ print(x) # [3, 4, 5]
 
 10.  將一串 [4, 2, 5, 3, 1] 做 小到大 與 大到小排序
 
-    ```python
-    x = [4, 2, 5, 3, 1]
-    x.sort()
-    print(x) # [1, 2, 3, 4, 5]
+     ```python
+        x = [4, 2, 5, 3, 1]
+        x.sort()
+        print(x) # [1, 2, 3, 4, 5]
 
-    x = [4, 2, 5, 3, 1]
-    x.sort(reverse=True)
-    print(x) # [5, 4, 3, 2, 1]
-    ```
+        x = [4, 2, 5, 3, 1]
+        x.sort(reverse=True)
+        print(x) # [5, 4, 3, 2, 1]
+     ```
 
 11.  lambda 是什麼
 
-    是python 中的匿名函式，寫法為 lambda: 輸入參數: 函式內容
+        是python 中的匿名函式，寫法為 lambda: 輸入參數: 函式內容
 
-    ex 計算平方
+        ex 計算平方  
 
-    ```python
-    square = lambda x: x * x
-    print(square(10)) # 100
-    ```
+
+        ```python
+        square = lambda x: x * x
+        print(square(10)) # 100
+        ```
 
 12. 將  {'a':24,'g':52,'i':12,'k':33} 依照key 排序 與 依照value排
 
@@ -299,13 +300,13 @@ print(x) # [3, 4, 5]
 
 17.  有一串列為['a', 'b', 'c'] 請將元素設為字典的key 隨機建立1~10的value 
 
-    ```python
-    import random
-    lst = ['a', 'b', 'c']
-    ans = {i:random.randint(1,10) for i in lst}
-    print(ans)
-    # {'a': 2, 'b': 9, 'c': 3}
-    ```
+     ```python 
+        import random
+        lst = ['a', 'b', 'c']
+        ans = {i:random.randint(1,10) for i in lst}
+        print(ans)
+        # {'a': 2, 'b': 9, 'c': 3}
+     ```
 
 18. 說明內建函數 map ( ) 怎麼使用，並用程式說明
 
@@ -324,20 +325,20 @@ print(x) # [3, 4, 5]
 
 19.  請說明*args 與 **kwargs 的差別
 
-    *args : 是指函數可以有任意數量的參數，本質是tuple
+        *args : 是指函數可以有任意數量的參數，本質是tuple
+        **kwargs 是指函數可以有任意數量的關鍵字參數，本質是dict
 
-    **kwargs 是指函數可以有任意數量的關鍵字參數，本質是dict
 
-    ```python
-    def fun(*args, **kwargs):
-        print('args =', args) 
-    		# args = (1, 2, 3, 4, 5)
+        ```python
+            def fun(*args, **kwargs):
+                print('args =', args) 
+                    # args = (1, 2, 3, 4, 5)
 
-        print('kwargs =', kwargs) 
-    		# kwargs = {'A': 'I', 'B': 'like', 'C': 'Python'}
+                print('kwargs =', kwargs) 
+                    # kwargs = {'A': 'I', 'B': 'like', 'C': 'Python'}
 
-    fun(1, 2, 3, 4, 5, A='I', B='like', C='Python')
-    ```
+            fun(1, 2, 3, 4, 5, A='I', B='like', C='Python')
+        ```
 
 20. 利用Nested function 計算兩座標點的距離
 
@@ -489,16 +490,17 @@ print(x) # [3, 4, 5]
     ```
 
 31.  檢查文字是否為 http 開頭
+     ```python
+     str.startswith(str, beg=0,end=len(string));
+     ```
 
-    str.startswith(str, beg=0,end=len(string));
-
-    ```python
-    site = "http://abc.123"
-    if site.startswith("http://") or site.startswith("https://"):
-        print("網址格式正確")
-    else:
-        print("網址格式錯誤")
-    ```
+     ```python
+        site = "http://abc.123"
+        if site.startswith("http://") or site.startswith("https://"):
+            print("網址格式正確")
+        else:
+            print("網址格式錯誤")
+     ```
 
 32. 檢查文字是否為 wow結尾
 
@@ -522,13 +524,13 @@ print(x) # [3, 4, 5]
 
 34.  將顏色與形狀的list 排列組合
 
-    ```python
-     colors = ["Red", "Green", "Blue"]
-    shapes = ["Circle", "Square"]
-    result = [[color, shape] for color in colors for shape in shapes]
-    print(result)
-    #[['Red', 'Circle'], ['Red', 'Square'], ['Green', 'Circle'], ['Green', 'Square'], ['Blue', 'Circle'], ['Blue', 'Square']]
-    ```
+     ```python
+        colors = ["Red", "Green", "Blue"]
+        shapes = ["Circle", "Square"]
+        result = [[color, shape] for color in colors for shape in shapes]
+        print(result)
+        #[['Red', 'Circle'], ['Red', 'Square'], ['Green', 'Circle'], ['Green', 'Square'], ['Blue', 'Circle'], ['Blue', 'Square']]
+     ```
 
 35. 寫出一個計算最大公因數的function
 

@@ -16,9 +16,11 @@ Easy
 ## String
 Easy
 
-[13. Roman to Integer](./String/13.Roman_to_Integer.md)
+[13.Roman to Integer](./String/13.Roman_to_Integer.md)
 
 [344.Reverse String](./String/344.Reverse_String.md)
+
+[541. Reverse String II](./String/541.Reverse_String_II.md)
 
 [557.Reverse Words in a String III](./String/557.Reverse_Words_in_a_String_III.md)
 
@@ -30,9 +32,11 @@ Easy
 
 [771.Jewels_and_Stones](./String/771.Jewels_and_Stones.md)
 
-[929. Unique Email Addresses](./String/929.Unique_Email_Addresses.md)
+[929.Unique Email Addresses](./String/929.Unique_Email_Addresses.md)
 
-[804. Unique Morse Code Words](./String/804.Unique_Morse_Code_Words.md)
+[804.Unique Morse Code Words](./String/804.Unique_Morse_Code_Words.md)
+
+[415.Add_String](./String/415.Add_String.md)
 
 ## Binary Search
 Easy

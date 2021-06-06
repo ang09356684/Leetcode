@@ -36,9 +36,9 @@ Easy
 
 [804.Unique Morse Code Words](./String/804.Unique_Morse_Code_Words.md)
 
-[415.Add_String](./String/415.Add_String.md)
+[415.Add String](./String/415.Add_String.md)
 
-[67.Add_Binary](./String/415.Add_Binary.md)
+[67.Add Binary](./String/67.Add_Binary.md)
 
 ## Binary Search
 Easy

@@ -20,7 +20,7 @@ Easy
 
 [344.Reverse String](./String/344.Reverse_String.md)
 
-[541. Reverse String II](./String/541.Reverse_String_II.md)
+[541.Reverse String II](./String/541.Reverse_String_II.md)
 
 [557.Reverse Words in a String III](./String/557.Reverse_Words_in_a_String_III.md)
 

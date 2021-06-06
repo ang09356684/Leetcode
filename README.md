@@ -38,6 +38,8 @@ Easy
 
 [415.Add_String](./String/415.Add_String.md)
 
+[67.Add_Binary](./String/415.Add_Binary.md)
+
 ## Binary Search
 Easy
 

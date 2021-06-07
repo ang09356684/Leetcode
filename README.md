@@ -40,6 +40,15 @@ Easy
 
 [67.Add Binary](./String/67.Add_Binary.md)
 
+[521.Longest Uncommon Subsequence I](./String/521.Longest_Uncommon_Subsequence_I.md)
+
+## Linked List
+Easy
+
+[21.Merge Two Sorted Lists](./Linked_List/21.Merge_Two_Sorted_Lists.md)
+
+[83.Remove Duplicates from Sorted List](./Linked_List/83.Remove_Duplicates_from_Sorted_List.md)
+
 ## Binary Search
 Easy
 

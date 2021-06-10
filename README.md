@@ -11,6 +11,10 @@
 
 [1512.Number of Good Pairs](./Array/1512.Number_of_Good_Pairs.md)
 
+[941.Valid Mountain Array](./Array/941.Valid_Mountain_Array.md)
+
+[747.Largest Number At Least Twice of Others](./Array/747.Largest_Number_At_Least_Twice_of_Others.md)
+
 ## Medium
 [17.Letter Combinations of a Phone Number](./Array/17.Letter_Combinations_of_a_Phone_Number.md)
 

@@ -1,10 +1,9 @@
 # Leetcode
 
-## python 
-[基本語法題](Python_基本題.md)
+[Python 基本語法題](Python_基本題.md)
 
-## Array
-Easy
+# Array
+## Easy
 
 [1.Two Sum](./Array/1.Two_Sum.md)
 
@@ -12,9 +11,11 @@ Easy
 
 [1512.Number of Good Pairs](./Array/1512.Number_of_Good_Pairs.md)
 
+## Medium
+[17.Letter Combinations of a Phone Number](./Array/17.Letter_Combinations_of_a_Phone_Number.md)
 
-## String
-Easy
+# String
+## Easy
 
 [13.Roman to Integer](./String/13.Roman_to_Integer.md)
 
@@ -42,22 +43,22 @@ Easy
 
 [521.Longest Uncommon Subsequence I](./String/521.Longest_Uncommon_Subsequence_I.md)
 
-## Linked List
-Easy
+# Linked List
+## Easy
 
 [21.Merge Two Sorted Lists](./Linked_List/21.Merge_Two_Sorted_Lists.md)
 
 [83.Remove Duplicates from Sorted List](./Linked_List/83.Remove_Duplicates_from_Sorted_List.md)
 
-## Binary Search
-Easy
+# Binary Search
+## Easy
 
 [278.First Bad Version](./Binary_Search/278.First_Bad_Version.md)
 
 [35.Search Insert Position](./Binary_Search/35.Search_Insert_Position.md)
 
-## Dynamic Programming
-Easy
+# Dynamic Programming
+## Easy
 
 [118. Pascal's Triangle](./Dynamic_Programming/118.Pascal's_Triangle.md)
 

@@ -15,8 +15,7 @@
 
 [747.Largest Number At Least Twice of Others](./Array/747.Largest_Number_At_Least_Twice_of_Others.md)
 
-## Medium
-[17.Letter Combinations of a Phone Number](./Array/17.Letter_Combinations_of_a_Phone_Number.md)
+[121.Best Time to Buy and Sell Stock](./Array/121.Best_Time_to_Buy_and_Sell_Stock.md)
 
 # String
 ## Easy
@@ -46,6 +45,9 @@
 [67.Add Binary](./String/67.Add_Binary.md)
 
 [521.Longest Uncommon Subsequence I](./String/521.Longest_Uncommon_Subsequence_I.md)
+
+## Medium
+[17.Letter Combinations of a Phone Number](./String/17.Letter_Combinations_of_a_Phone_Number.md)
 
 # Linked List
 ## Easy

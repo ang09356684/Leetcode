@@ -19,6 +19,10 @@
 
 [53.Maximum Subarray](./Array/53.Maximum_Subarray.md)
 
+[349.Intersection of Two Arrays](./Array/349.Intersection_of_Two_Arrays.md)
+
+[88.Merge Sorted Array](./Array/88.Merge_Sorted_Array.md)
+
 # String
 ## Easy
 

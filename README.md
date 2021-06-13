@@ -23,6 +23,10 @@
 
 [88.Merge Sorted Array](./Array/88.Merge_Sorted_Array.md)
 
+[169.Majority Element](./Array/169.Majority_Element.md)
+
+[561.Array Partition I](./Array/561.Array_Partition_I.md)
+
 # String
 ## Easy
 

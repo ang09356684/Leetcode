@@ -571,3 +571,22 @@
     
     print(lcm(a,b)) # 30
     ```
+
+37. 取出一list中出現最多的元素
+    ```python
+    nums = [2,2,1,1,3,2,2]
+    max_item = max(nums, key=nums.count)
+    print(max_item) # 2
+    ```
+
+38. 將list透過出現次數排序
+    ```python
+    from collections import Counter
+    nums = [2,2,1,1,3,2,2]
+
+    # print(Counter(nums).get(1))  # 2
+    # print(Counter(nums).get(2))  # 4
+
+    nums.sort(key=Counter(nums).get)
+    print(nums)  # [3, 1, 1, 2, 2, 2, 2]
+    ```

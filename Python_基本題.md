@@ -590,3 +590,45 @@
     nums.sort(key=Counter(nums).get)
     print(nums)  # [3, 1, 1, 2, 2, 2, 2]
     ```
+
+39. 使用 xor 找出list 中單獨的數字 nums = [4,1,2,1,2] 
+    xor 規則
+
+    ```python
+    0 xor 0 = 0
+    0 xor 1 = 1
+    1 xor 0 = 1
+    1 xor 1 = 0
+    ```
+
+    1. xor 符合交換律 **a^b == b^a**
+
+    2. 0^a 是 a
+
+    3. a^a 是 0
+
+    解題方式
+
+    ```python
+    length = len(nums)
+    r =nums[0]
+    for i in range(1, length):
+        r = r ^ nums[i] 
+    print(r) # 4
+    ```
+    因符合交換率可拆解成  4 ^ (1 ^ 1) ^ (2 ^ 2) => 4 ^ 0 ^ 0  ⇒ 4
+    
+    每一輪的更新步驟
+    ```python
+    r = 4 ( 0b100 ) itme =  1 ( 0b1 )
+    after xor =  5 bin =  0b101
+
+    r = 5 ( 0b101 ) itme =  2 ( 0b10 )
+    after xor =  7 bin =  0b111
+
+    r = 7 ( 0b111 ) itme =  1 ( 0b1 )
+    after xor =  6 bin =  0b110
+
+    r = 6 ( 0b110 ) itme =  2 ( 0b10 )
+    after xor =  4 bin =  0b100
+    ```

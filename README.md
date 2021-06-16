@@ -29,6 +29,10 @@
 
 [561.Array Partition I](./Array/561.Array_Partition_I.md)
 
+[268.Missing Number](./Array/268.Missing_Number.md)
+
+[202.Happy Number](./Array/202.Happy_Number.md)
+
 # String
 ## Easy
 
@@ -60,6 +64,10 @@
 
 ## Medium
 [17.Letter Combinations of a Phone Number](./String/17.Letter_Combinations_of_a_Phone_Number.md)
+
+# Hash table
+## Easy
+[136.Single Number](./Hash_Table/136.Single_Number.md)
 
 # Linked List
 ## Easy

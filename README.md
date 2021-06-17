@@ -3,7 +3,7 @@
 [Python 基本語法題](Python_基本題.md)
 
 # Array
-## Easy
+## Easy 
 
 [1.Two Sum](./Array/1.Two_Sum.md)
 

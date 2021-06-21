@@ -118,6 +118,59 @@
 
     ['Simens', 'Asus', 'Acer', 'Google', 'Philip', 'IBM', 'Microsoft', 'HP', 'TSMC']
 
+    set 的其他用法
+
+    ```python
+    vowels = set('aeiou') # {'o', 'u', 'i', 'e', 'a'}
+    letters = set('alice') # {'c', 'i', 'l', 'e', 'a'}
+    subnet = set('ae') # {'a','e'}
+    ```
+
+    取交集
+
+    ```python
+    vowels & letters  #{'a', 'e', 'i'}
+    ```
+
+    取聯集
+
+    ```python
+    vowels | letters # {'c', 'o', 'u', 'i', 'l', 'e', 'a'}
+    ```
+
+    取差集
+
+    ```python
+    vowels - letters # {'o', 'u'}
+    ```
+
+    取對稱差集 (聯集減去交集)
+
+    ```python
+    vowels ^ letters  # {'c', 'l', 'o', 'u'}
+    # 相等於
+    (letters | vowels) - (letters & vowels)
+    ```
+
+    檢查是否為子集
+
+    ```python
+    # {'a','e'} 是否為 {'c', 'i', 'l', 'e', 'a'} 的子集
+    subnet <= letters # True
+    # 相等於
+    subnet.issubset(letter) 
+
+    # {'c', 'i', 'l', 'e', 'a'} 是否為 {'a','e'} 的子集
+    subnet >= letters # False
+    ```
+
+    檢查是否為超(父)集
+
+    ```python
+    #{'c', 'i', 'l', 'e', 'a'} 是否完全包含 {'a','e'} 
+    letters.issuperset(subnet) # True
+    ```
+
 8. 有兩個list 如何找出有交集的
 
     ```python

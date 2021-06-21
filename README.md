@@ -69,6 +69,8 @@
 ## Easy
 [136.Single Number](./Hash_Table/136.Single_Number.md)
 
+[500.Keyboard Row](./Hash_Table//500.Keyboard_Row.md)
+
 # Linked List
 ## Easy
 

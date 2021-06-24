@@ -73,6 +73,8 @@
 
 [409.Longest Palindrome](./Hash_Table/409.Longest_Palindrome.md)
 
+[690.Employee Importance](./Hash_Table/690.Employee_Importance.md)
+
 # Linked List
 ## Easy
 

@@ -75,6 +75,8 @@
 
 [690.Employee Importance](./Hash_Table/690.Employee_Importance.md)
 
+[389.Find the Difference](./Hash_Table/389.Find_the_Difference.md)
+
 # Linked List
 ## Easy
 

@@ -77,6 +77,11 @@
 
 [389.Find the Difference](./Hash_Table/389.Find_the_Difference.md)
 
+[217.Contains Duplicate](./Hash_Table/217.Contains_Duplicate.md)
+
+## Medium
+[299.Bulls and Cows](./Hash_Table/299.Bulls_and_Cows.md)
+
 # Linked List
 ## Easy
 

@@ -89,7 +89,9 @@
 
 [83.Remove Duplicates from Sorted List](./Linked_List/83.Remove_Duplicates_from_Sorted_List.md)
 
-[234. Palindrome Linked List](./Linked_List/234._Palindrome_Linked_List.md)
+[234.Palindrome Linked List](./Linked_List/234._Palindrome_Linked_List.md)
+
+[206.Reverse Linked List](./Linked_List/206.Reverse_Linked_List.md)
 
 # Binary Search
 ## Easy
@@ -101,5 +103,5 @@
 # Dynamic Programming
 ## Easy
 
-[118. Pascal's Triangle](./Dynamic_Programming/118.Pascal's_Triangle.md)
+[118.Pascal's Triangle](./Dynamic_Programming/118.Pascal's_Triangle.md)
 

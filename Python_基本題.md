@@ -685,3 +685,23 @@
     r = 6 ( 0b110 ) itme =  2 ( 0b10 )
     after xor =  4 bin =  0b100
     ```
+
+40. 反轉linked list ex [1,2,3,4,5]
+    ![image](/images/206.rev1ex1.jpg)
+
+    ```python
+    # class ListNode:
+    #     def __init__(self, val=0, next=None):
+    #         self.val = val
+    #         self.next = next
+    class Solution:
+        def reverseList(self, head: ListNode) -> ListNode:
+            reverse = None
+            
+            while head:
+                next_node = head.next
+                head.next = reverse
+                reverse = head
+                head = next_node
+            return reverse
+    ```

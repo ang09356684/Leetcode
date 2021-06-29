@@ -93,6 +93,9 @@
 
 [206.Reverse Linked List](./Linked_List/206.Reverse_Linked_List.md)
 
+## Medium
+[2.Add Two Numbers](./Linked_List/2.Add_Two_Numbers.md)
+
 # Binary Search
 ## Easy
 

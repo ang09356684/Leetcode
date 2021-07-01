@@ -79,6 +79,8 @@
 
 [217.Contains Duplicate](./Hash_Table/217.Contains_Duplicate.md)
 
+[463.Island Perimeter](./Hash_Table/463.Island_Perimeter.md)
+
 ## Medium
 [299.Bulls and Cows](./Hash_Table/299.Bulls_and_Cows.md)
 

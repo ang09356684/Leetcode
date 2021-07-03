@@ -97,6 +97,7 @@
 
 [203.Remove Linked List Elements](./Linked_List/203.Remove_Linked_List_Elements.md)
 
+[160.Intersection of Two Linked Lists](./Linked_List/160.Intersection_of_Two_Linked_Lists.md)
 ## Medium
 [2.Add Two Numbers](./Linked_List/2.Add_Two_Numbers.md)
 

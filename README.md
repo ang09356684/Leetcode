@@ -62,6 +62,8 @@
 
 [521.Longest Uncommon Subsequence I](./String/521.Longest_Uncommon_Subsequence_I.md)
 
+[205.Isomorphic Strings](./String/205.Isomorphic_Strings.md)
+
 ## Medium
 [17.Letter Combinations of a Phone Number](./String/17.Letter_Combinations_of_a_Phone_Number.md)
 
@@ -87,6 +89,8 @@
 
 ## Medium
 [299.Bulls and Cows](./Hash_Table/299.Bulls_and_Cows.md)
+
+[3.Longest Substring Without Repeating Characters](./Hash_Table/3.Longest_Substring_Without_Repeating_Characters.md)
 
 # Linked List
 ## Easy

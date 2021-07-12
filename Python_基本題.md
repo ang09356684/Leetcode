@@ -714,3 +714,17 @@
     test[2:11:2] = ['x'] * 5
     print(test) # [0, 1, 2, 3, 'x', 5, 'x', 7, 'x', 9, 'x']
     ```
+42. 計算一個字串中每個字元出現的次數，按照字元出現順序 ex s="apple"
+    ```python
+    s_count_pair = [(i, s.count(i)) for i in s ]
+    print(s_count_pair ) # [('a', 1), ('p', 2), ('p', 2), ('l', 1), ('e', 1)]
+    ```
+    或者使用Count 透過取index的方式拿到出現次數
+
+    ```python
+    from collections import Counter
+
+    s_count = Counter(s)
+    s_count_pair = [(i, s_count[i]) for i in s]
+    print(s_count_pair) # [('a', 1), ('p', 2), ('p', 2), ('l', 1), ('e', 1)]
+    ```

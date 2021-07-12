@@ -81,6 +81,10 @@
 
 [463.Island Perimeter](./Hash_Table/463.Island_Perimeter.md)
 
+[204.Count Primes](./Hash_Table/204.Count_Primes.md)
+
+[290.Word Pattern](./Hash_Table/290.Word_Pattern.md)
+
 ## Medium
 [299.Bulls and Cows](./Hash_Table/299.Bulls_and_Cows.md)
 
